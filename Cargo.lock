@@ -299,7 +299,7 @@ dependencies = [
  "termcolor",
  "trybuild",
  "unicode-segmentation",
- "unicode-width 0.1.12",
+ "unicode-width",
 ]
 
 [[package]]
@@ -478,7 +478,7 @@ dependencies = [
  "termcolor",
  "terminal_size 0.4.3",
  "trybuild",
- "unicode-width 0.1.12",
+ "unicode-width",
 ]
 
 [[package]]
@@ -528,7 +528,7 @@ dependencies = [
  "rustc-hash 2.1.1",
  "schemars",
  "serde",
- "unicode-width 0.1.12",
+ "unicode-width",
 ]
 
 [[package]]
@@ -966,7 +966,7 @@ dependencies = [
  "smallvec",
  "tests_macros",
  "tikv-jemallocator",
- "unicode-width 0.1.12",
+ "unicode-width",
 ]
 
 [[package]]
@@ -2304,7 +2304,7 @@ dependencies = [
  "encode_unicode 1.0.0",
  "libc",
  "once_cell",
- "unicode-width 0.2.0",
+ "unicode-width",
  "windows-sys 0.60.2",
 ]
 
@@ -2988,11 +2988,11 @@ dependencies = [
 
 [[package]]
 name = "getopts"
-version = "0.2.21"
+version = "0.2.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "14dbbfd5c71d70241ecf9e6f13737f7b5ce823821063188d7e46c41d371eebd5"
+checksum = "cfe4fbac503b8d1f88e6676011885f34b7174f46e59956bba534ba83abded4df"
 dependencies = [
- "unicode-width 0.1.12",
+ "unicode-width",
 ]
 
 [[package]]
@@ -3428,7 +3428,7 @@ dependencies = [
  "console 0.16.0",
  "portable-atomic",
  "unicode-segmentation",
- "unicode-width 0.2.0",
+ "unicode-width",
  "unit-prefix",
  "web-time",
 ]
@@ -5542,15 +5542,9 @@ checksum = "f6ccf251212114b54433ec949fd6a7841275f9ada20dddd2f29e9ceea4501493"
 
 [[package]]
 name = "unicode-width"
-version = "0.1.12"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68f5e5f3158ecfd4b8ff6fe086db7c8467a2dfdac97fe420f2b7c4aa97af66d6"
-
-[[package]]
-name = "unicode-width"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1fc81956842c57dac11422a97c3b8195a1ff727f06e85c84ed2e8aa277c9a0fd"
+checksum = "b4ac048d71ede7ee76d585517add45da530660ef4390e49b098733c6e897f254"
 
 [[package]]
 name = "unit-prefix"
